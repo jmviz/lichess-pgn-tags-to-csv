@@ -1,0 +1,16 @@
+[package]
+name = "pgn2csv"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+pgn-reader = "0.20.0"
+anyhow = "1.0.62"
+bzip2 = "0.4.3"
+globwalk = "0.8.1"
+rayon = "1.5.3"
+phf = { version = "0.11.1", features = ["macros"] }
+indicatif = { version = "0.17.0", features = ["rayon"] }
+clap = { version = "3.2.20", features = ["derive"] }
+indexmap = "1.9.1"
+rustc-hash = "1.1.0"
